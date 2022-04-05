@@ -1,0 +1,334 @@
+body{
+    margin: 0;
+    font-family: Helvetica;
+}
+
+body nav{
+    padding: 24px 136px 0 136px;
+    background-color: #F1F3FF;
+}
+div {
+    display: block;
+}
+.logo{
+    width: 100px;
+    height: 34px;
+    background: #0D28A6;
+    border-style: none;
+}
+
+.nav-link{
+    margin-right: 22px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+.button-regis{
+    width: 81px;
+    height: 36px;
+    background: #5CB85F;
+    border-radius: 2px;
+    border-style: none;
+    
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.header{
+    height: 443px;
+    background: #F1F3FF;
+    padding: 24px 0px 0 136px;
+}
+
+.mt-header-kiri{
+    margin-top: 114px;
+}
+
+.header-kiri{
+    height: 100vh;
+    width: 50vw;
+}
+
+.header-kiri p{
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 15px;
+}
+
+.header-kiri button{
+    margin-top: 15;
+    background: #5CB85F;
+    border-radius: 2px;
+    border-style: none;
+    width: 140px;
+    height: 36px;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+}
+.header-kanan{
+    margin-top: 3vh;
+    height: 100vh;
+    width: 55vw;
+    text-align: right;
+}
+
+.body1{
+    padding: 104px 0px 100px 150px;
+    justify-content: space-between;
+}
+
+.body1-kiri{
+    width: 50%;
+}
+.body1-kanan{
+    width: 50%;
+}
+
+.body2{
+      padding: 0px 150px 100px 150px;
+}
+
+.card-item{
+    border: 1px solid #D0D0D0;
+    border-radius: 8px;
+    padding: 24px 24px 24px 24px;
+    width: 23%;
+    height: 196px;
+}
+
+.icon{
+    height:32px ;
+    width:32px ;
+    margin-bottom: 16px;
+}
+
+.card-item h5{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.card-item p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 8px;
+}
+
+.body3{
+    height: 500px;
+    width: 100%;
+
+}
+.show-neighbors {
+    overflow: hidden;
+  }
+  
+  .show-neighbors .carousel-inner {
+    width: 150%;
+    left: -25%;
+  }
+  
+  .show-neighbors .item__third {
+    display: block !important;
+    float: left;
+    position: relative;
+    width: 33.33333333%;}
+
+.circle{
+    width: 32px;
+    height: 32px;
+    margin: 0 12px;
+    border: 1px solid #C4C4C4;
+    border-radius: 100%;
+
+}
+
+.circle:hover {
+    border: 1px solid white;
+    background-color: #5cb85f;
+    color: white;
+  }
+
+.card-testimonial{
+ width: 90%;
+height: 270px;
+background-color: #F1F3FF !important; 
+;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+border-radius: 8px;
+
+}
+.testi-kanan{
+    width: 70%;
+    padding-top: 52px;
+}
+.testi-kanan img{
+    width: 80px;
+    height: 16px;
+    margin-bottom: 10px;
+
+}
+.testi-kanan p{
+    font-size: 16px;
+    line-height: 20px;
+
+
+
+}
+.testi-kiri{
+    width: 80px;
+    height: 80px;
+    
+
+}
+ .testi-kiri img{
+    margin: 91px 0 0 66px;
+    padding-bottom: 15px;
+ }
+.body4{
+padding: 0px 150px 100px 150px;
+    width: 100%;
+    height: 350px;
+}
+
+.banner{
+    background: #0D28A6;
+    border-radius: 13px;
+    width: 1168px;
+    height: 326px;
+    margin-top: 30px;
+}
+
+.banner h2{
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 61px;
+}
+
+.banner p{
+    max-width: 40%;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    align-self: center;
+    padding-top: 23px;
+    padding-bottom: 31px;
+}
+ .banner button{
+    padding: 0px 12px;
+    width: 154px;
+    height: 36px;
+    left: 650px;
+    top: 2304px;
+    align-self: center;
+    background: #5CB85F;
+    border-radius: 2px;
+    color: white;
+
+    border-style: none;
+ }
+
+ .body5{
+    height: 344px;
+    width: 100%;
+    padding: 100px 150px 344px 150px;
+ }
+
+ .body5-kiri{
+    width: 35%;
+
+ }
+ .body5-kanan {
+    width: 60%;
+ }
+.body5-kiri h3{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.body5-kiri p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.body5-kanan p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+.accordion{
+    text-align: -webkit-right;
+}
+.accordion-header{
+    border: 1px solid #D4D4D4;
+    box-sizing: border-box;
+    border-radius: -4px;
+}
+
+.accordion-item{
+    border: 1px solid #D4D4D4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    width: 600px; 
+}
+
+.footer{
+    width: 100%;
+    height: 128px;
+    padding: 183px 150px 0 150px;
+    margin-bottom: 150px;
+}
+
+.footer1{
+    width: 26%;
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer2{
+    width: 23%;
+    padding-left: 50px;
+}
+.footer3{
+    width: 23%;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 57px;
+}
+.footer4{
+    width: 23%;
+}
+.footer2 p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 11px;
+}
+.footer2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.icon img{
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+}
+
+
+
