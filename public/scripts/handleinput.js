@@ -22,11 +22,5 @@ buttonSearch.addEventListener('click', (e)=>{
     console.log(getinput2());
     console.log(getinput3());
     console.log(getinput4());
-
-if(getinput4 === ""){
-    filterCar(getinput1,getinput2,getinput3)
-}
-if (getinput4 !== "") {
-    filterCar(getinput1,getinput2,getinput3,getinput4)
-}
+filterCar(getinput1(),getinput2(),getinput3(),getinput4())
 })

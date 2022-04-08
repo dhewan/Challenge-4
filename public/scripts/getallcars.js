@@ -30,12 +30,18 @@ const getAllCar = () => {
 getAllCar()
 
 const filterCar = (avail,date,time,person) => {
-    
+    const tanggal = new Date(date)
+    const timeDetail = new Date(time)
+    const jam = timeDetail.getHours()
+    const menit = timeDetail.getMinutes()
+    tanggal.setMinutes(menit)
+    tanggal.setHours(jam)
     let newCar = AllCar.filter(car => 
-        car.available.toString().includes(avail) &&
-        new Date(car.availableAt) < new Date(date)&&
-        new Date(car.availableAt).getHours() > new Date(time) ||
-        car.capacity.toString().includes(person)
+        {
+        console.log(car.available, avail, date, '==========');
+        return car.available.toString() == avail && 
+        new Date(car.availableAt) < tanggal &&
+        car.capacity.toString() >= person}
     );
     const body = document.getElementById('card-car')
     body.innerHTML = ''
